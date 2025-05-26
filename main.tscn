@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=3 uid="uid://byf7bi33taqt"]
+[gd_scene load_steps=13 format=3 uid="uid://byf7bi33taqt"]
 
 [ext_resource type="Script" uid="uid://cjtdc3xnpha8c" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://ct21oe3p3mr5e" path="res://player.tscn" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://by5bfvrtrbchf" path="res://mob.tscn" id="2_h2yge"]
 [ext_resource type="FontFile" uid="uid://b8oudrmr4ry1c" path="res://fonts/Montserrat-Medium.ttf" id="4_lquwl"]
 [ext_resource type="Script" uid="uid://dpuxd4p6usg2" path="res://score_label.gd" id="5_7mycd"]
+[ext_resource type="PackedScene" uid="uid://c6e0lr6p0i76y" path="res://music_player.tscn" id="6_7mycd"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_7dm0k"]
 size = Vector3(60, 2, 60)
@@ -113,6 +114,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.0627451, 0.113725, 0.14902, 0.45098)
+
+[node name="MusicPlayer" parent="." instance=ExtResource("6_7mycd")]
 
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
