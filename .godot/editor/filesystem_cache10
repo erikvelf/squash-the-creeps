@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1748186869
+::res://::1748271338
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::-1::1748156816::0::1::::<><><>0<>0<><>::
 default_env.tres::Environment/Environment::-1::1748156816::0::1::::<><><>0<>0<><>::
 icon.png::CompressedTexture2D/CompressedTexture2D::1668297303312288197::1748156785::1748156831::1::::<><><>0<>0<>b693a9b27e32229cbb74bdb447770334<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-main.gd::GDScript::5443951366817025900::1748186808::0::1::::<>Node<><>0<>0<><>::
-main.tscn::PackedScene::120094706296398091::1748186855::0::1::::<><><>0<>0<><>::uid://cjtdc3xnpha8c::::res://main.gd<>uid://ct21oe3p3mr5e::::res://player.tscn<>uid://by5bfvrtrbchf::::res://mob.tscn
+main.gd::GDScript::5443951366817025900::1748187314::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::120094706296398091::1748188459::0::1::::<><><>0<>0<><>::uid://cjtdc3xnpha8c::::res://main.gd<>uid://ct21oe3p3mr5e::::res://player.tscn<>uid://by5bfvrtrbchf::::res://mob.tscn
 mob.gd::GDScript/GDScript::5527759817423361113::1748184623::0::1::::<>CharacterBody3D<><>0<>0<><>::
 mob.tscn::PackedScene/PackedScene::4132955039728023219::1748185007::0::1::::<><><>0<>0<><>::uid://vsi6m465rdo5::::res://art/mob.glb<>uid://ck0xnqpck1utt::::res://mob.gd
 player.gd::GDScript/GDScript::8674332828034056094::1748169963::0::1::::<>CharacterBody3D<><>0<>0<><>::

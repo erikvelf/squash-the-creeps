@@ -30,6 +30,8 @@ mob_scene = ExtResource("2_h2yge")
 
 [node name="Ground" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+collision_layer = 4
+collision_mask = 0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
 shape = SubResource("BoxShape3D_7dm0k")
@@ -56,18 +58,19 @@ far = 100.0
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9, 0, -14)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Cylinders"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
 mesh = SubResource("CylinderMesh_0xm2m")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="Cylinders"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
 mesh = SubResource("CylinderMesh_0xm2m")
 
 [node name="MeshInstance3D3" type="MeshInstance3D" parent="Cylinders"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 29)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 29)
 mesh = SubResource("CylinderMesh_0xm2m")
 
 [node name="MeshInstance3D4" type="MeshInstance3D" parent="Cylinders"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 29)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 29)
 mesh = SubResource("CylinderMesh_0xm2m")
 
 [node name="SpawnPath" type="Path3D" parent="."]
