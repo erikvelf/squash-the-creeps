@@ -79,8 +79,6 @@ curve = SubResource("Curve3D_h2yge")
 [node name="SpawnLocation" type="PathFollow3D" parent="SpawnPath"]
 transform = Transform3D(0.0115575, 0, -0.999933, 0, 1, 0, 0.999933, 0, 0.0115575, -8.91565, 0, -13.919)
 
-[node name="Mob" parent="." instance=ExtResource("2_h2yge")]
-
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5
 autostart = true
